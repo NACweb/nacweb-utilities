@@ -1,10 +1,14 @@
 {
   "name": "nacweb-utility-components",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Usefull nodejs components manteined by NACweb snc",
   "main": "dist/index.js",
   "author": "NACweb snc / Jonathan Antognazza",
   "license": "MIT",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/NACweb/nacweb-utilities"
+  },
   "keywords": [
     "nacweb",
     "validator",
@@ -12,8 +16,7 @@
     "back end",
     "geolocation"
   ],
-  "scripts": {
-  },
+  "scripts": {},
   "dependencies": {
     "node-geocoder": "^4.2.0"
   },
